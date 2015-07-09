@@ -4,7 +4,7 @@ using Toybox.System as Sys;
 using Toybox.Graphics as Gfx;
 
 
-// Version 0.9 - datafield "STEPS+"
+// Version 0.91 - datafield "STEPS+"
 // Achim Weis 08.07.2015
 // displays steps and steps Goal
 // displays an bowed-arc as progress indicator
@@ -58,9 +58,8 @@ class data_activityView extends Ui.DataField {
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
         dc.clear();
         drawActivity(dc);
-        
     } // ende onUpdate
-
+  
 
     function drawActivity(dc) {
      var activity = ActivityMonitor.getInfo();
@@ -69,6 +68,8 @@ class data_activityView extends Ui.DataField {
      var activproz;
      var activgewichtet;
      var i; 
+     var dcwidth = dc.getWidth();
+     var dcheight = dc.getHeight();
      activproz =  100 *  activity.steps / activity.stepGoal ;
      var delta =  stepsGoal - stepsLive;
      var ausrichtung = getObscurityFlags();       
@@ -83,79 +84,78 @@ class data_activityView extends Ui.DataField {
      else if (activproz < 90)   {i = 8;}
      else if (activproz < 100)  {i = 9;}
      else {i = 10;} 
-     
+
      activgewichtet =  (activproz.toFloat() / 100 ) * 176;
      if ( activgewichtet > 176 ) { activgewichtet = 176;}    
      
-     if ( (ausrichtung == 7) || (ausrichtung == 15) ){ // oberes datenfeld oder nur 1 Feld##################################################################
-        if (dc.getHeight() < 100){ // check auf 3er Feld
+     if ( (ausrichtung == 7) || (ausrichtung == 15)){ // oberes datenfeld oder nur 1 Feld##################################################################
+        if (dcheight< 100){ // check auf 3er Feld
            dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_YELLOW);
-	       dc.drawText(dc.getWidth()/2, 2 , Gfx.FONT_TINY, "only 1,2,(3)" , Gfx.TEXT_JUSTIFY_CENTER );
-	       dc.drawText(dc.getWidth()/2, 20 , Gfx.FONT_TINY, "datafield view" , Gfx.TEXT_JUSTIFY_CENTER );
-	       dc.drawText(dc.getWidth()/2, 40 , Gfx.FONT_TINY, "supported" , Gfx.TEXT_JUSTIFY_CENTER );
+	       dc.drawText((dcwidth/2), 2 , Gfx.FONT_TINY, "only 1,2,(3)" , Gfx.TEXT_JUSTIFY_CENTER );
+	       dc.drawText((dcwidth/2), 20 , Gfx.FONT_TINY, "datafield view" , Gfx.TEXT_JUSTIFY_CENTER );
+	       dc.drawText((dcwidth/2), 40 , Gfx.FONT_TINY, "supported" , Gfx.TEXT_JUSTIFY_CENTER );
         } else{
         
      dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);       
      if ( stepsLive <1000){  // keliner ARC
      //              x    y  radius    dicke    angel   offin  color                                direction
-      drawArc(dc, 114-5, 95, 114-5, 38, activgewichtet.toNumber(), -88, [COLORS[i], Gfx.COLOR_BLACK], CLOCKWISE); // grüner balken drüberlegen
+      drawArc(dc, (dcwidth/2), 95, 114-5, 38, activgewichtet.toNumber(), -88, [COLORS[i], Gfx.COLOR_BLACK], CLOCKWISE); // grüner balken drüberlegen
      }
      else if (stepsLive <10000){ // mittlerer ARC
-      drawArc(dc, 114-5, 85, 114-5, 50, activgewichtet.toNumber(), -88, [COLORS[i], Gfx.COLOR_BLACK], CLOCKWISE); // grüner balken drüberlegen
+      drawArc(dc, (dcwidth / 2), 85, 114-5, 50, activgewichtet.toNumber(), -88, [COLORS[i], Gfx.COLOR_BLACK], CLOCKWISE); // grüner balken drüberlegen
       }
       else{  // fetter ARC
-        drawArc(dc, 114-5, 75, 114-5, 62, activgewichtet.toNumber() + 18, -88 -9, [COLORS[i], Gfx.COLOR_BLACK], CLOCKWISE); // grüner balken drüberlegen
+        drawArc(dc, (dcwidth/2), 75, 114-5, 62, activgewichtet.toNumber() + 18, -88 -9, [COLORS[i], Gfx.COLOR_BLACK], CLOCKWISE); // grüner balken drüberlegen
       }  
       
      // Show steps and stepsGoal als numbers
      dc.setColor( COLORSFONT[i], COLORS[i]);
-     dc.drawText(2, 80 , Gfx.FONT_MEDIUM,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
+     dc.drawText(1, 80 , Gfx.FONT_MEDIUM,stepsLive.toString() , Gfx.TEXT_JUSTIFY_LEFT);
      if (i<10){
           dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
      }else{dc.setColor( Gfx.COLOR_WHITE, COLORS[i]);}
      
      if (( stepsLive >= 10000 ) && (stepsGoal <= 10000) ) {stepsGoal = "   " + stepsGoal.toString();} // zur not auch 5 stellig machen
          
-     dc.drawText(217, 80 , Gfx.FONT_MEDIUM, stepsGoal.toString() , Gfx.TEXT_JUSTIFY_RIGHT ); // steps Goal schreiben
+     dc.drawText(dcwidth - 1, 80 , Gfx.FONT_MEDIUM, stepsGoal.toString() , Gfx.TEXT_JUSTIFY_RIGHT ); // steps Goal schreiben
      dc.setColor( COLORSFONT[i], Gfx.COLOR_TRANSPARENT);
      activproz = activproz.toNumber() + "%";    
-     dc.drawText(114, 0 , Gfx.FONT_MEDIUM, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER );  
+     dc.drawText(( dcwidth /2), 0 , Gfx.FONT_MEDIUM, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER );  
      
      // Großer Wert anzeigen.
-      
-       dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+      dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
       if (delta >= 0){  
-         dc.drawText(110, 87 , Gfx.FONT_TINY, "to GO" , Gfx.TEXT_JUSTIFY_CENTER ); 
+         dc.drawText((dcwidth/2), 87 , Gfx.FONT_TINY, "to GO" , Gfx.TEXT_JUSTIFY_CENTER ); 
       } else {
-         dc.drawText(110, 87 , Gfx.FONT_TINY, "!!GOAL!!" , Gfx.TEXT_JUSTIFY_CENTER );
+         dc.drawText((dcwidth/2), 87 , Gfx.FONT_TINY, "!!GOAL!!" , Gfx.TEXT_JUSTIFY_CENTER );
       }
       
       delta = delta.abs();  
       if  (delta < 1000 ) {
-        dc.drawText(110, 18 , Gfx.FONT_NUMBER_HOT, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
+        dc.drawText((dcwidth/2) , 16 , Gfx.FONT_NUMBER_HOT, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
       } else{
-        dc.drawText(110, 38 , Gfx.FONT_NUMBER_MEDIUM, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
+        dc.drawText((dcwidth/2) , 36 , Gfx.FONT_NUMBER_MEDIUM, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
       }
       }// ende "oben aber 4 datafelder  
     
     }else if (ausrichtung == 13){ // UNTEN #################################################################################
-        if (dc.getHeight() < 100){ // check auf 3er Feld
+        if (dcheight < 100){ // check auf 3er Feld
            dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_YELLOW);
-           dc.drawText(2, 2 , Gfx.FONT_TINY, "only 1,2,(3)" , Gfx.TEXT_JUSTIFY_LEFT );
-           dc.drawText(2, 20 , Gfx.FONT_TINY, "datafield view" , Gfx.TEXT_JUSTIFY_LEFT );
-           dc.drawText(2, 40 , Gfx.FONT_TINY, "supported" , Gfx.TEXT_JUSTIFY_LEFT );
+           dc.drawText((dcwidth / 2), 2 , Gfx.FONT_TINY, "only 1,2,(3)" , Gfx.TEXT_JUSTIFY_CENTER );
+           dc.drawText((dcwidth / 2), 20 , Gfx.FONT_TINY, "datafield view" , Gfx.TEXT_JUSTIFY_CENTER );
+           dc.drawText((dcwidth / 2), 40 , Gfx.FONT_TINY, "supported" , Gfx.TEXT_JUSTIFY_CENTER );
         }
         else{ // anzeigen  
       dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);       
      if ( stepsLive <1000){  // keliner ARC
      //              x    y  radius    dicke    angel   offin  color                                direction
-      drawArc(dc, 114-5, 10, 114-5, 38, activgewichtet.toNumber(), 88, [COLORS[i], Gfx.COLOR_BLACK], COUNTERCLOCKWISE); // grüner balken drüberlegen
+      drawArc(dc, (dcwidth / 2), 10, 114-5, 38, activgewichtet.toNumber(), 88, [COLORS[i], Gfx.COLOR_BLACK], COUNTERCLOCKWISE); // grüner balken drüberlegen
      }
      else if (stepsLive <10000){ // mittlerer ARC
-      drawArc(dc, 114-5, 20, 114-5, 50, activgewichtet.toNumber(), 88, [COLORS[i], Gfx.COLOR_BLACK], COUNTERCLOCKWISE); // grüner balken drüberlegen
+      drawArc(dc, (dcwidth / 2), 20, 114-5, 50, activgewichtet.toNumber(), 88, [COLORS[i], Gfx.COLOR_BLACK], COUNTERCLOCKWISE); // grüner balken drüberlegen
       }
       else{  // fetter ARC
-        drawArc(dc, 114-5, 30, 114-5, 62, activgewichtet.toNumber() + 18, 88 -9, [COLORS[i], Gfx.COLOR_BLACK], COUNTERCLOCKWISE); // grüner balken drüberlegen
+        drawArc(dc, (dcwidth / 2), 30, 114-5, 62, activgewichtet.toNumber() + 18, 88 -9, [COLORS[i], Gfx.COLOR_BLACK], COUNTERCLOCKWISE); // grüner balken drüberlegen
       }  
       
      // Show steps and stepsGoal als numbers
@@ -167,33 +167,32 @@ class data_activityView extends Ui.DataField {
      
      if (( stepsLive >= 10000 ) && (stepsGoal <= 10000) ) {stepsGoal = "   " + stepsGoal.toString();} // zur not auch 5 stellig machen
          
-     dc.drawText(217, 2 , Gfx.FONT_MEDIUM, stepsGoal.toString() , Gfx.TEXT_JUSTIFY_RIGHT ); // steps Goal schreiben
+     dc.drawText(dcwidth -1 , 2 , Gfx.FONT_MEDIUM, stepsGoal.toString() , Gfx.TEXT_JUSTIFY_RIGHT ); // steps Goal schreiben
      dc.setColor( COLORSFONT[i], Gfx.COLOR_TRANSPARENT);
      activproz = activproz.toNumber() + "%";    
-     dc.drawText(114, 80 , Gfx.FONT_MEDIUM, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER );  
-     
-     // Großer Wert anzeigen.
-      
-       dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-      if (delta >= 0){  
-         dc.drawText(110, 7 , Gfx.FONT_TINY, "to GO" , Gfx.TEXT_JUSTIFY_CENTER ); 
+     dc.drawText((dcwidth / 2), 80 , Gfx.FONT_MEDIUM, activproz.toString() , Gfx.TEXT_JUSTIFY_CENTER );  
+     dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+ 
+     // Großer Wert anzeigen. ( Delta in der Mitta ) 
+       if (delta >= 0){  
+         dc.drawText((dcwidth / 2), 7 , Gfx.FONT_TINY, "to GO" , Gfx.TEXT_JUSTIFY_CENTER ); 
       } else {
-         dc.drawText(110, 7 , Gfx.FONT_TINY, "!!GOAL!!" , Gfx.TEXT_JUSTIFY_CENTER );
+         dc.drawText((dcwidth / 2), 7 , Gfx.FONT_TINY, "!!GOAL!!" , Gfx.TEXT_JUSTIFY_CENTER );
       }
-      
+    
       delta = delta.abs();  
       if  (delta < 1000 ) {
-        dc.drawText(110, 7 , Gfx.FONT_NUMBER_HOT, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
+        dc.drawText((dcwidth / 2), 7 , Gfx.FONT_NUMBER_HOT, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
       } else{
-        dc.drawText(110, 17 , Gfx.FONT_NUMBER_MEDIUM, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
+        dc.drawText((dcwidth / 2), 17 , Gfx.FONT_NUMBER_MEDIUM, delta.toString() , Gfx.TEXT_JUSTIFY_CENTER );
       }
       } // ende check auf 100pixel höhe (4 datafield aber unten)
       } 
       else { // ENDE SONST (4 Felder 5 Felder usw)+++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_YELLOW);
-       dc.drawText(dc.getWidth()/2, 2 , Gfx.FONT_TINY, "only 1,2,(3)" , Gfx.TEXT_JUSTIFY_LEFT );
-       dc.drawText(dc.getWidth()/2, 20 , Gfx.FONT_TINY, "datafield view" , Gfx.TEXT_JUSTIFY_LEFT );
-       dc.drawText(dc.getWidth()/2, 40 , Gfx.FONT_TINY, "supported" , Gfx.TEXT_JUSTIFY_LEFT );
+       dc.setColor( Gfx.COLOR_RED, Gfx.COLOR_YELLOW);
+       dc.drawText((dcwidth / 2), 2 , Gfx.FONT_TINY, "only 1,2,(3)" , Gfx.TEXT_JUSTIFY_CENTER );
+       dc.drawText((dcwidth / 2), 20 , Gfx.FONT_TINY, "datafield view" , Gfx.TEXT_JUSTIFY_CENTER );
+       dc.drawText((dcwidth / 2), 40 , Gfx.FONT_TINY, "supported" , Gfx.TEXT_JUSTIFY_CENTER );
       }// ENDE UNTEN################################################################################################
 
     }// Ende draw Activity

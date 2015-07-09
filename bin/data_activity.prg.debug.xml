@@ -1,94 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="43" pc="268435461" symbol="compute"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="49" pc="268435480" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="50" pc="268435516" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="51" pc="268435528" symbol="onUpdate"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="57" pc="268435545" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="58" pc="268435564" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="59" pc="268435574" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="60" pc="268435584" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="61" pc="268435584" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="62" pc="268435584" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="63" pc="268435584" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="65" pc="268435609" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="65" pc="268435620" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="66" pc="268435641" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="67" pc="268435662" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="68" pc="268435683" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="69" pc="268435704" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="70" pc="268435725" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="71" pc="268435746" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="72" pc="268435767" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="73" pc="268435788" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="74" pc="268435809" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="75" pc="268435819" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="77" pc="268435826" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="78" pc="268435851" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="78" pc="268435862" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="80" pc="268435872" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="82" pc="268435908" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="84" pc="268435919" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="87" pc="268436054" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="90" pc="268436178" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="94" pc="268436311" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="95" pc="268436346" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="96" pc="268436403" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="97" pc="268436414" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="98" pc="268436453" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="100" pc="268436488" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="100" pc="268436513" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="102" pc="268436535" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="103" pc="268436592" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="104" pc="268436628" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="105" pc="268436647" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="108" pc="268436704" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="109" pc="268436711" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="110" pc="268436747" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="111" pc="268436758" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="113" pc="268436812" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="116" pc="268436863" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="117" pc="268436876" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="118" pc="268436887" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="120" pc="268436947" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="124" pc="268437004" symbol="drawActivity"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="132" pc="268437020" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="133" pc="268437030" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="134" pc="268437040" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="135" pc="268437040" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="136" pc="268437051" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="137" pc="268437067" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="139" pc="268437085" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="140" pc="268437101" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="142" pc="268437122" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="143" pc="268437133" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="144" pc="268437141" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="146" pc="268437175" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="147" pc="268437185" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="148" pc="268437195" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="150" pc="268437208" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="151" pc="268437236" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="152" pc="268437255" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="153" pc="268437332" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="155" pc="268437352" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="156" pc="268437386" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="157" pc="268437402" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="160" pc="268437422" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="161" pc="268437438" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="163" pc="268437456" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="164" pc="268437476" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="165" pc="268437486" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="166" pc="268437512" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="167" pc="268437530" symbol="drawArc"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="20" pc="268437674" symbol="&lt;init&gt;"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="23" pc="268437702" symbol="&lt;init&gt;"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="173" pc="268437557" symbol="onStart"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="177" pc="268437563" symbol="getInitialView"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="181" pc="268437603" symbol="onStop"/>
-<entry filename="Z:\\f3\\data_activity\\source\\data_activityApp.mc" lineNum="15" pc="268437616" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268437982" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268437969" symbol="&lt;init&gt;"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="52" pc="268435461" symbol="compute"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="58" pc="268435480" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="59" pc="268435516" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="60" pc="268435528" symbol="onUpdate"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="65" pc="268435545" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="66" pc="268435564" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="67" pc="268435574" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="68" pc="268435584" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="69" pc="268435584" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="70" pc="268435584" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="71" pc="268435584" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="72" pc="268435597" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="73" pc="268435610" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="74" pc="268435635" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="75" pc="268435642" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="76" pc="268435655" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="76" pc="268435666" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="77" pc="268435687" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="78" pc="268435708" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="79" pc="268435729" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="80" pc="268435750" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="81" pc="268435771" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="82" pc="268435792" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="83" pc="268435813" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="84" pc="268435834" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="85" pc="268435855" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="86" pc="268435865" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="88" pc="268435872" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="89" pc="268435897" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="89" pc="268435908" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="91" pc="268435918" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="92" pc="268435943" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="93" pc="268435954" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="94" pc="268435990" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="95" pc="268436044" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="96" pc="268436098" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="99" pc="268436155" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="100" pc="268436191" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="102" pc="268436202" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="105" pc="268436334" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="108" pc="268436455" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="112" pc="268436585" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="113" pc="268436619" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="114" pc="268436676" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="115" pc="268436687" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="116" pc="268436726" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="118" pc="268436761" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="118" pc="268436786" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="120" pc="268436808" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="121" pc="268436868" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="122" pc="268436903" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="123" pc="268436922" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="126" pc="268436982" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="127" pc="268437018" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="128" pc="268437029" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="130" pc="268437086" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="133" pc="268437140" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="134" pc="268437153" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="135" pc="268437164" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="137" pc="268437227" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="142" pc="268437301" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="143" pc="268437312" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="144" pc="268437348" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="145" pc="268437402" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="146" pc="268437456" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="149" pc="268437513" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="150" pc="268437549" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="152" pc="268437560" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="155" pc="268437686" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="158" pc="268437801" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="162" pc="268437925" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="163" pc="268437959" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="164" pc="268438016" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="165" pc="268438027" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="166" pc="268438066" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="168" pc="268438101" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="168" pc="268438126" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="170" pc="268438148" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="171" pc="268438208" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="172" pc="268438243" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="173" pc="268438262" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="174" pc="268438322" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="177" pc="268438358" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="178" pc="268438369" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="180" pc="268438426" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="183" pc="268438480" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="184" pc="268438493" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="185" pc="268438504" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="187" pc="268438567" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="192" pc="268438630" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="193" pc="268438666" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="194" pc="268438720" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="195" pc="268438774" symbol="drawActivity"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="201" pc="268438831" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="202" pc="268438841" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="203" pc="268438851" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="204" pc="268438851" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="205" pc="268438862" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="206" pc="268438878" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="208" pc="268438896" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="209" pc="268438912" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="211" pc="268438933" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="212" pc="268438944" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="213" pc="268438952" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="215" pc="268438986" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="216" pc="268438996" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="217" pc="268439006" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="219" pc="268439019" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="220" pc="268439047" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="221" pc="268439066" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="222" pc="268439143" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="224" pc="268439163" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="225" pc="268439197" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="226" pc="268439213" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="229" pc="268439233" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="230" pc="268439249" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="232" pc="268439267" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="233" pc="268439287" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="234" pc="268439297" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="235" pc="268439323" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="236" pc="268439341" symbol="drawArc"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="16" pc="268439485" symbol="&lt;init&gt;"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="19" pc="268439513" symbol="&lt;init&gt;"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="33" pc="268439760" symbol="&lt;init&gt;"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="242" pc="268439368" symbol="onStart"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="246" pc="268439374" symbol="getInitialView"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityView.mc" lineNum="250" pc="268439414" symbol="onStop"/>
+<entry filename="Z:\\f3\\data_activity\\source\\data_activityApp.mc" lineNum="15" pc="268439427" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268440047" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268440034" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -136,7 +178,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="18" module="true" symbol="Menus"/>
+<entry id="19" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -181,7 +223,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="21" symbol="AppName"/>
+<entry field="true" id="22" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -198,7 +240,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="20" symbol="LauncherIcon"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -309,7 +351,7 @@
 <entry id="8389142" method="true" symbol="getProfile"/>
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
-<entry id="19" module="true" symbol="Layouts"/>
+<entry id="20" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389152" symbol="FONT_XTINY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -339,7 +381,7 @@
 <entry id="5" module="true" symbol="globals_Rez_Fonts"/>
 <entry field="true" id="8388912" symbol="steps"/>
 <entry id="8389191" method="true" symbol="getTextDimensions"/>
-<entry id="16" method="true" symbol="drawActivity"/>
+<entry id="17" method="true" symbol="drawActivity"/>
 <entry field="true" id="8389037" symbol="NUMBER_PICKER_WEIGHT"/>
 <entry field="true" id="8389406" symbol="heightUnits"/>
 <entry id="8389329" symbol="november"/>
@@ -382,6 +424,7 @@
 <entry id="8389327" symbol="september"/>
 <entry id="8389132" method="true" symbol="setFont"/>
 <entry field="true" id="8389519" symbol="torque"/>
+<entry id="16" symbol="COLORSFONT"/>
 <entry field="true" id="8389529" symbol="userProfileSelected"/>
 <entry field="true" id="8389039" symbol="NUMBER_PICKER_CALORIES"/>
 <entry id="8389541" method="true" symbol="onCancel"/>
@@ -971,7 +1014,7 @@
 <entry id="8389479" method="true" symbol="getDeviceState"/>
 <entry field="true" id="8389169" symbol="COLOR_PURPLE"/>
 <entry id="8389180" method="true" symbol="drawPoint"/>
-<entry id="17" method="true" symbol="drawArc"/>
+<entry id="18" method="true" symbol="drawArc"/>
 <entry id="8389260" method="true" symbol="sendBroadcast"/>
 <entry field="true" id="8388862" symbol="SUB_SPORT_HAND_CYCLING"/>
 <entry id="8389436" object="true" symbol="CalculatedWheelSpeed"/>
